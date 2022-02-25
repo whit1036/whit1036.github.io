@@ -23,13 +23,13 @@ header {
     background: beige;
 }
 
-.clearfix::after {
-    display: block;
-    clear: both;
-}
-
 .float img {
     float: left;
     width: 400px;
     margin-right: 2rem;
+}
+
+.clearfix::after {
+    display: block;
+    clear: both;
 }
