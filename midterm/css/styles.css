@@ -18,3 +18,7 @@ header {
 .center {
     text-align: center;
 }
+
+.box-one {
+    background: beige;
+}
