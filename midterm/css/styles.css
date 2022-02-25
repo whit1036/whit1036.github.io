@@ -25,12 +25,15 @@ header {
     background-position: center;
 }
 
-.center {
+.center-one {
     text-align: center;
 }
 
 .box {
     background: beige;
+    width: 1200px;
+    
+
 }
 
 .float img {
