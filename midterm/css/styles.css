@@ -22,3 +22,15 @@ header {
 .box-one {
     background: beige;
 }
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.float img {
+    width: 200px;
+    float: left;
+    margin-right: 1rem;
+}
