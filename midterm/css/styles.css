@@ -1,4 +1,5 @@
 html{
+    background-color: brown;
     box-sizing: border-box;
   }
   
@@ -9,7 +10,6 @@ html{
   }
 
 body {
-    background-color: sienna;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
     font-size: 1.1rem;
 }
@@ -18,9 +18,9 @@ header {
     font-size: xx-large;
     color: aliceblue;
     text-align: center;
+    padding: 160px 100px;
+    margin: -60px;
     background-image: url(../images/gibson_59lespaul.jpeg);
-    padding: 130px 100px;
-    margin: 40px;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -33,8 +33,9 @@ p {
     text-align: center;
 }
 
-.box-two {
+.box {
     background: beige;
+    padding: 60px;
     width: 1165px;
     margin: auto;
 
