@@ -25,12 +25,27 @@ header {
     background-position: center;
 }
 
-.nav {
-    
-}
-
 p {
     font-size: 1.3rem;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a {
+    color: inherit;
+  }
+
+.nav {
+    font-size: 40px;
+    color: black;
+    padding: 160px 100px;
+    margin: -160px;
 }
 
 .center-one {
