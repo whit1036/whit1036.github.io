@@ -18,8 +18,8 @@ header {
     font-size: xx-large;
     color: aliceblue;
     text-align: center;
-    padding: 160px 100px;
-    margin: -60px;
+    padding: 140px 100px;
+    margin: -10px;
     background-image: url(../images/gibson_59lespaul.jpeg);
     background-repeat: no-repeat;
     background-position: center;
@@ -41,21 +41,38 @@ a {
     color: inherit;
   }
 
-.nav {
-    font-size: 40px;
-    color: black;
-    padding: 160px 100px;
-    margin: -160px;
+nav {
+    font-size: 2rem;
+    background-color: beige;
+    height: 50px;
+    width: 600px;
+    position: absolute;
+    right: 38%;
+    
 }
 
-.center-one {
+nav ul {
     text-align: center;
+    margin: 0 auto;
+}
+
+nav ul li {
+    list-style-type: none;
+    width: 180px;
+    float: left;
+    border-right: 1px solid black;
+    text-align: center;
+}
+
+li a {
+    line-height: 50px;
+    display: block;
 }
 
 .box {
     background: beige;
-    padding: 50px;
-    width: 1165px;
+    padding: 60px;
+    width: 1170px;
     margin: auto;
 
 }
