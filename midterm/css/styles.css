@@ -81,6 +81,14 @@ a {
     clear: both;
 }
 
+input {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+}
+
 footer {
     text-align: right;
 }
