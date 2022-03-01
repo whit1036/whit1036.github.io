@@ -1,17 +1,20 @@
 html{
     background-color: brown;
   }
+  /* sets backrgound color */
   
   *,
   *:before,
   *:after{
     box-sizing: border-box;
   }
+  /* adds border-box to specify element width & height */
 
 body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
     font-size: 1.1rem;
 }
+/* Sets the font style and font size of body */
 
 header {
     font-size: 2.9rem;
@@ -23,6 +26,7 @@ header {
     background-repeat: no-repeat;
     background-position: center;
 }
+/* Creates header styles */
 
 nav {
     font-size: xx-large;
@@ -63,7 +67,6 @@ a {
     padding: 0px;
     width: 1170px;
     margin: auto;
-
 }
 
 .float img {
