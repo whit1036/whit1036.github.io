@@ -80,3 +80,7 @@ a {
     display: block;
     clear: both;
 }
+
+footer {
+    text-align: right;
+}
