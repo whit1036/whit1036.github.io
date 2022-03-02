@@ -96,6 +96,12 @@ textarea {
     height: 120px;
 }
 
+button {
+    font-size: small;
+    padding: 10px 10px;
+    background-color: beige;
+}
+
 footer {
     text-align: right;
 }
