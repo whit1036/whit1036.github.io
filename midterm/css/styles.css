@@ -14,7 +14,7 @@ body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
     font-size: 1.1rem;
 }
-/* Sets the font style and font size of body */
+/* sets the font style and font size of body */
 
 header {
     font-size: 2.9rem;
@@ -26,7 +26,7 @@ header {
     background-repeat: no-repeat;
     background-position: center;
 }
-/* Creates header styles */
+/* creates header styles */
 
 nav {
     font-size: xx-large;
@@ -45,13 +45,7 @@ nav {
     text-align: center;
 }
 
-p {
-    font-size: 1.3rem;
-}
-
-h2 {
-    padding: 10px;
-}
+/* adds styling to nav bar */
 
 a:link {
     text-decoration: none;
@@ -61,10 +55,26 @@ a:visited {
     text-decoration: none;
 }
 
+/* removes links underline and visited history */
+
 a {
     color: inherit;
   }
 
+/* inherits font color for header text */
+
+h2 {
+    padding: 10px;
+}
+
+/* changes all h2 padding */
+
+p {
+    font-size: 1.3rem;
+    padding: 0px 20px;
+}
+
+/* changes paragraph font size */
 
 .box {
     background: beige;
@@ -72,6 +82,8 @@ a {
     width: 1170px;
     margin: auto;
 }
+
+/* changes box style */
 
 .float img {
     float: left;
@@ -86,9 +98,13 @@ a {
     clear: both;
 }
 
+/* float/clear fix for image in box */
+
 .facts {
     padding: 0px 30px;
 }
+
+/* fixes padding for facts ul section */
 
 .contact {
     width: 100%;
@@ -97,9 +113,13 @@ a {
     padding-left: 0%;
 }
 
+/* adds style to contact form info */
+
 .inline-radio {
     display: inline-flex;
 }
+
+/* fixes radio form button to flex inline */
 
 form {
     border: 2px solid black;
@@ -108,12 +128,16 @@ form {
     margin: auto;
 }
 
+/* creates form border with custom styling */
+
 textarea {
     width: 100%;
     padding: 5px 20px;
     margin: 10px 0;
     height: 90px;
 }
+
+/* adds custom styling to text area */
 
 button {
     font-size: small;
@@ -123,7 +147,11 @@ button {
     background-color: beige;
 }
 
+/* adds custom style to button */
+
 footer {
     text-align: right;
     padding: 25px;
 }
+
+/* aligns footer to the bottom right side of box */
