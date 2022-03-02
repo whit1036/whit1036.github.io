@@ -63,6 +63,15 @@ a {
 
 /* inherits font color for header text */
 
+.box {
+    background: beige;
+    padding: 0px;
+    width: 1170px;
+    margin: auto;
+}
+
+/* changes box style */
+
 h2 {
     padding: 10px;
 }
@@ -75,15 +84,6 @@ p {
 }
 
 /* changes paragraph font size */
-
-.box {
-    background: beige;
-    padding: 0px;
-    width: 1170px;
-    margin: auto;
-}
-
-/* changes box style */
 
 .float img {
     float: left;
@@ -106,6 +106,15 @@ p {
 
 /* fixes padding for facts ul section */
 
+form {
+    border: 2px solid black;
+    width: 98%;
+    padding: 25px 30px;
+    margin: auto;
+}
+
+/* creates form border with custom styling */
+
 .contact {
     width: 100%;
     padding: 10px 20px;
@@ -120,15 +129,6 @@ p {
 }
 
 /* fixes radio form button to flex inline */
-
-form {
-    border: 2px solid black;
-    width: 98%;
-    padding: 25px 30px;
-    margin: auto;
-}
-
-/* creates form border with custom styling */
 
 textarea {
     width: 100%;
