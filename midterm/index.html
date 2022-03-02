@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--creates html document-->
     <title>MTM6130 Midterm</title>
+    <!--creates website title-->
     <link href="css/styles.css" rel="stylesheet">
+    <!--links css stylesheet file to html file-->
 </head>
 <body>
     <header>
         <h1 id="home">Gibson Les Paul</h1>
+        <!--adds an h1 to header with 'home' id link-->
     </header>
     <div class="box">
     <nav>
@@ -19,14 +23,19 @@
             <li><a href="#contact">CONTACT</a></li>
         </ul>
     </nav>
+    <!--creates .navbar css class and adds nav links with id's-->
 <main>
     <section class="float clearfix">
         <h2 id="story">The History of the Gibson Les Paul</h2>
+        <!--adds h2 story title with 'story' id link with float/clear fix css class-->
         <img src="../midterm/images/1959GibsonLesPaul.jpeg" alt="Gibson Les Paul">
+        <!--adds img to story section-->
             <p>The 'Gibson Les Paul' electric guitar is argubely one of the most well known musical instruments known to humankind. It's origins begin with the man himself; Lester Polsfuss, 'Les Paul'. Les was an American showbusiness actor who worked on tv with his wife 'Mary Ford' as a performing guitar duet. Les was known to experiment with musical devices at 'Epi Stathopoulus' (Epiphone) workshop. It was in Epi's workshop where he created the first ever solid body electric guitar dubbed 'The Log', in 1940. 10 years later, Les was finally accepted by the 'Gibson Guitar Corporation' to manufacture his creation, after 'Fender' released their first electric guitar in 1950. The Gibson Les Paul guitar, made its official debut in 1952, featuring dual 'P90' pickups & a Gold Top body. To this day, the Les Paul remains the most popular guitar choice for any player of any genre of music. This popularity stems from the incredible design that has not changed since the beginning. The quality, sustain, playability, tone, and killer body shape of any Les Paul guitar is simply untouchable. The Gibson Les Paul guitar is the axe of choice of many famous guitar players such as: Slash (Guns N' Roses), Jimmy Page (Led Zeppelin), Billy Gibbons (ZZ Top), Randy Rhoads (Ozzy Osbourne), Ace Frehley (KISS), Neal Schon (Journey), Jerry Cantrell (Alice in Chains), & many more. </p>
+        <!--adds paragraph story of les paul history-->
     </section>
     <section>
     <h2>Facts About the Gibson Les Paul</h2>
+    <!--adds h2 for facts section-->
         <ul class="facts">
             <li>Gibson created the 'Les Paul Custom' in 1954 featuring custom prestige specs such as: a jet black body, gold hardware, five-piece diamond headstock pattern & a custom ABR-1 bridge.</li>
             
@@ -36,9 +45,11 @@
 
             <li>The 'Gibson SG' model originally started as a 'new' Les Paul re-design after discontuning the original Les Paul model in 1960. McCarty of Gibson wanted to create a light-weight, modern alternative to make up for the heavy-weight old-school look of the original Les Paul. The 'new' Les Paul was released in 1961 & featured 4 double-cut slim body models with a vibrato arm. Rumor has it that Les Paul himself saw the new design and hated it, later asking for his name be removed from the 'new' Les Paul headstock. Gibson changed the 'new' Les Paul to the 'Gibson SG' in 1963.</li>
         </ul>
+    <!--creates ul of facts with .facts css class for styling-->
     </section>
     <section>
     <h2 id="contact">Contact to learn more!</h2>
+    <!--creates h2 for contact info with 'contact' id link-->
     <form>
         <div>
             <label class="contact" for="name">Your Name</label>
@@ -52,7 +63,9 @@
             <label class="contact" for="message">Your Message</label>
             <textarea class="contact" id="message" name="message"></textarea>
         </div>
+    <!--creates form & adds label/input for name, email, and message with .contact css class for styling-->
     <h3>Would you like to own a Les Paul?</h3>
+    <!--adds h3 question-->
     <group class="inline-radio">  
         <div>
             <label for="yes">Yes</label>
@@ -67,9 +80,11 @@
             <input type="radio" id="maybe" name="maybe" value="question">
         </div>
     </group>
+    <!--creates group for radio inputs with .inline-radio css class for styling-->
         <div>
             <button type="submit">SEND</button>
         </div>
+    <!--adds send button to submit contact info & question input-->
     </form>
     </section>
         <footer>
@@ -77,6 +92,7 @@
         </footer>
         <hr>
     </div>
+    <!--adds footer for brand info and hr tag for space/ end of box-->
 </main>
 </body>
 </html>
