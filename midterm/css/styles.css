@@ -76,7 +76,8 @@ a {
 .float img {
     float: left;
     width: 320px;
-    margin-right: 3rem;
+    margin-right: 2rem;
+    padding: 10px;
 }
 
 .clearfix::after {
@@ -93,8 +94,9 @@ input {
 
 form {
     border: 2px solid black;
-    width: 99%;
+    width: 98%;
     padding: 25px 30px;
+    margin: auto;
 }
 
 textarea {
