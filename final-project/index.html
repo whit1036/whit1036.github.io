@@ -1,36 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MTM6130 Final Project - whit1036</title>
 
+    <!-- fontawesome.com embed for icons -->
     <script src="https://kit.fontawesome.com/8a3e07eedf.js" crossorigin="anonymous"></script>
 
+    <!-- googlemaps embed for algonquin college map -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
+
+    <!-- links css stylesheet to html -->
     <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
+    <!-- header content -->
     <header>
+        <!-- nav bar with logo and search bar/icon -->
         <div class="wrapper">
             <nav>
-                <img src="images/logo.png" alt="logo">
-                
-                <ul>
+                <!-- header logo container -->
+                <div class="logo-container">
+                    <img class="img-logo" src="images/logo.png" alt="logo">
+                </div>
+
+                <ul class="menu">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="#">About Us</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Team</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
-                
-                <input type="search" id="query" name="q" placeholder="Search">
-                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <input class="searchbar" type="search" id="query" name="q" placeholder="Search">
+
+                <button>
+                    <i class="fa-solid fa-2x fa-magnifying-glass"></i>
+                </button>
             </nav>
         </div>
-
+        
+        <!-- welcome to three star media section -->
         <div class="welcome">
-            <section>
+            <!-- creates welcome container -->
+            <section class="welcome-container">
+                <div class="main-img"></div>
                 
                 <h1>Welcome to Three Star Media</h1>
             
@@ -41,10 +59,12 @@
         </div>
     </header>
 
+<!-- main content  -->
 <main>
+    <!-- about us img + container -->
     <div class="about">
-        <section>
-            <img src="images/about-us.jpg" alt="about-us">
+        <section class="about-us-container">
+            <img class="about-us-img" src="images/about-us.jpg" alt="about-us">
             
             <h1>About Us</h1>
             
@@ -53,63 +73,79 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa voluptate sint deserunt dolores nemo quos officia, necessitatibus itaque minima eveniet tempora quasi distinctio sed sunt laboriosam nostrum culpa architecto voluptatem.</p>  
         </section>
     </div>
-
+    
+    <!-- our services section -->
     <section class="services">
         <h1>Our Services</h1>
     
+        <!-- digital transformation img + container -->
         <div class="digital">
-            <img src="images/digital.jpg" alt="digital">
+            <img class="digital-img" src="images/digital.jpg" alt="digital">
 
-            <h2>Digital Transformation</h2>
+            <div class="transformation-container">
+                <h2>Digital Transformation</h2>
 
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab numquam animi culpa quo omnis, id delectus quibusdam rerum officiis possimus dolorum laboriosam neque sapiente ipsa atque harum! Explicabo, cumque culpa?</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab numquam animi culpa quo omnis, id delectus quibusdam rerum officiis possimus dolorum laboriosam neque sapiente ipsa atque harum! Explicabo, cumque culpa?</p>
 
-            <h3>Digital Plans <i class="fa-solid fa-caret-right"></i></h3>
+                <h3>Digital Plans <i class="fa-solid fa-caret-right"></i></h3>
+            </div>
         </div>
 
+        <!-- marketing img + container -->
         <div class="marketing">
-            <img src="images/marketing.jpg" alt="marketing">
+            <img class="market-img" src="images/marketing.jpg" alt="marketing">
+            <div class="market-container">
+                <h2>Marketing</h2>
 
-            <h2>Marketing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quibusdam facere omnis, eos laborum illum perferendis nobis, tenetur aut reprehenderit non dolor soluta tempora quas illo molestias quidem quia consequuntur.</p>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quibusdam facere omnis, eos laborum illum perferendis nobis, tenetur aut reprehenderit non dolor soluta tempora quas illo molestias quidem quia consequuntur.</p>
-
-            <h3>Marketing Plans <i class="fa-solid fa-caret-right"></i></h3>
+                <h3>Marketing Plans <i class="fa-solid fa-caret-right"></i></h3>
+            </div>
         </div>
 
+        <!-- video production img + container -->
         <div class="videoproduction">
-            <img src="images/video.jpg" alt="video">
+            <img class="video-img" src="images/video.jpg" alt="video">
 
-            <h2>Video Production</h2>
+            <div class="production-container">
+                <h2>Video Production</h2>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, dolorem. Placeat ipsam assumenda laudantium necessitatibus perspiciatis sequi omnis, adipisci molestiae laborum nulla obcaecati quo fugiat optio velit hic, ex corporis.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, dolorem. Placeat ipsam assumenda laudantium necessitatibus perspiciatis sequi omnis, adipisci molestiae laborum nulla obcaecati quo fugiat optio velit hic, ex corporis.</p>
 
-            <h3>Video Plans <i class="fa-solid fa-caret-right"></i></h3>
+                <h3>Video Plans <i class="fa-solid fa-caret-right"></i></h3>
+            </div>
         </div>
 
-        <div class="webdev">
-            <img src="images/web.jpg" alt="web">
+        <!-- web development img + container -->
+        <div class="web">
+            <img class="web-img" src="images/web.jpg" alt="web">
+        
+            <div class="webdev-container">
+                <h2>Web Development</h2>
 
-            <h2>Web Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae id voluptatibus facilis eum, amet blanditiis labore necessitatibus optio eveniet! Accusantium impedit nobis molestias sunt rem libero minus nihil error aut.</p>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae id voluptatibus facilis eum, amet blanditiis labore necessitatibus optio eveniet! Accusantium impedit nobis molestias sunt rem libero minus nihil error aut.</p>
-
-            <h3>Web Plans <i class="fa-solid fa-caret-right"></i></h3>
+                <h3>Web Plans <i class="fa-solid fa-caret-right"></i></h3>
+            </div>
         </div>
 
-        <div class="print">
-            <img src="images/print.jpg" alt="print">
+        <!-- print img + container -->
+        <div class="print-plans">
+            <img class="print-img" src="images/print.jpg" alt="print">
 
-            <h2>Print</h2>
+            <div class="print-container">
+                <h2>Print</h2>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, corporis. Error voluptate recusandae debitis magnam et! At delectus necessitatibus ducimus nemo praesentium, voluptates recusandae nobis possimus rem quis sequi facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, corporis. Error voluptate recusandae debitis magnam et! At delectus necessitatibus ducimus nemo praesentium, voluptates recusandae nobis possimus rem quis sequi facere.</p>
 
-            <h3>Print Plans <i class="fa-solid fa-caret-right"></i></h3>
+                <h3>Print Plans <i class="fa-solid fa-caret-right"></i></h3>
+            </div>
         </div>
     </section>
 
+    <!-- our vision container -->
     <section class="vision">
-        <div class="ourvision">
+        <div class="ourvision-container">
             <h2>Our Vision</h2>
 
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, tenetur error doloribus atque molestiae harum enim ipsum porro delectus vero reprehenderit voluptatibus iusto debitis molestias tempora expedita doloremque possimus. Vel?</p>
@@ -118,54 +154,70 @@
         </div>
     </section>
 
+    <!-- our team section -->
     <section class="team">
         <h1>Our Team</h1>
-        
-        <div class="john">
-            <img src="images/john.jpg" alt="john">
+       
+        <!-- john doe img + container -->
+        <img class="john-img" src="images/john.jpg" alt="john">
+       
+        <div class="john-container">
 
             <h2>John Doe</h2>
 
-            <h3>Ceo and Co-owner</h3>
+            <h5>CEO and Co-owner</h5>
+
+            <hr>
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim perspiciatis corrupti eveniet temporibus voluptatem consequuntur magnam, repudiandae magni consectetur similique reprehenderit odio quidem neque non consequatur dolores ratione officia voluptatum?</p>
         </div>
 
-        <div class="bob">
-            <img src="images/bob.jpg" alt="bob">
+        <!-- bob rite img + container -->
+        <img class="bob-img" src="images/bob.jpg" alt="bob">
 
+        <div class="bob-container">
+            
             <h2>Bob Rite</h2>
 
-            <h3>CFO and Co-owner</h3>
+            <h5>CFO and Co-owner</h5>
+
+            <hr>
 
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum iure nesciunt ea harum sequi. Fuga facere, nemo tempora tenetur nobis aut corporis! Necessitatibus consectetur sint maxime rem, minus omnis saepe!</p>
         </div>
     </section>
 
+    <!-- contact us section -->
     <section class="info">
         <h1>Contact Us</h1>
 
+        <!-- send us a message form -->
         <div class="message">
             <h2>Send us a message</h2>
 
             <form>
                 <div>
                     <label for="fullname">Full Name</label>
-                    <input id="fullname" type="text">
+                    <input class="input" id="fullname" type="text">
                 </div>
 
                 <div>
                     <label for="email">Email</label>
-                    <input id="email" type="email">
+                    <input class="input" id="email" type="email">
                 </div>
 
                 <div>
                     <label for="message">Message</label>
-                    <textarea id="message"></textarea>
+                    <textarea class="textarea" id="message"></textarea>
+                </div>
+
+                <div>
+                    <input type="submit" value="Send" id="sendbutton">
                 </div>
             </form>
         </div>
         
+        <!-- hours of operation table -->
         <div class="ophours">
             <h2>Hours of Operation</h2>
 
@@ -178,31 +230,33 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Monday-Friday</td>
+                        <td>Monday - Friday</td>
                         <td>9 AM - 6 PM</td>
                     </tr>
                     <tr>
-                        <td>Saturday-Sunday</td>
+                        <td>Saturday - Sunday</td>
                         <td>Closed</td>
                     </tr>
                 </tbody>
             </table>
         </div>
 
-        <div class="location">
+        <!-- location container w/google map embed -->
+        <div>
             <h2>Location</h2>
 
-            <div class="maps">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22431.557908540897!2d-75.77244626021493!3d45.34992777909966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1648747769076!5m2!1sen!2sca" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="location-container">
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22431.557908540897!2d-75.77244626021493!3d45.34992777909966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1648747769076!5m2!1sen!2sca" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </section>
 </main>
 
+<!-- footer -->
 <footer>
-    <h3>© Copyright Three Star Media, 2020</h3>
+    <h4>© Copyright Three Star Media, 2020</h4>
     
-    <h3>All images are taken from <u>Unsplash</u></h3>
+    <h4>All images are taken from <u>Unsplash</u></h4>
 </footer>
 
 </body>
