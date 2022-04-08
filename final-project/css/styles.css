@@ -519,8 +519,38 @@ footer h4 {
 		height: 0;
 	}
 
+	nav ul {
+		justify-content: center;
+	}
+
+	nav ul li {
+		width: 150px;
+	}
+
+	.searchbar {
+		width: auto;
+		float: right;
+	}
+
 	.wrapper {
 		width: 1200px;
+		height: 250px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.welcome {
+		width: 1200px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.welcome-container {
+		width: 1050px;
+		height: 420px;
+		top: 80px;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
