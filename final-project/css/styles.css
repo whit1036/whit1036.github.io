@@ -556,6 +556,21 @@ footer h4 {
 		margin-right: auto;
 	}
 
+	.about-us-container {
+		width: 1200px;
+		height: 310px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.about-us-img {
+		width: 550px;
+		float: left;
+		margin-right: 30px;
+		margin-left: 10px;
+	}
+
 	footer {
 		width: 1200px;
 		display: block;
