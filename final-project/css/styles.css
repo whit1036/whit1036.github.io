@@ -571,6 +571,13 @@ footer h4 {
 		margin-left: 10px;
 	}
 
+	.ours {
+		width: 1200px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
 	.services {
 		display: grid;
 		margin: auto;
