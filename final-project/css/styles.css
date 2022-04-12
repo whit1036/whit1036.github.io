@@ -571,6 +571,35 @@ footer h4 {
 		margin-left: 10px;
 	}
 
+	.services {
+		display: grid;
+		margin: auto;
+		grid-template-columns: repeat(6, 1fr);
+		grid-template-areas: 
+		"dg dg dg mk mk mk"
+		"vp vp wb wb pp pp"
+	}
+
+	.digital {
+		grid-area: dg;
+	}
+
+	.marketing {
+		grid-area: mk;
+	}
+
+	.videoproduction {
+		grid-area: vp;
+	}
+
+	.web {
+		grid-area: wb;
+	}
+
+	.print-plans {
+		grid-area: pp;
+	}
+
 	.ourvision-container {
 		width: 1200px;
 		display: block;
