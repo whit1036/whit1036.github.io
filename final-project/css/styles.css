@@ -574,6 +574,7 @@ footer h4 {
 	.services {
 		display: grid;
 		margin: auto;
+		max-width: 1200px;
 		grid-template-columns: repeat(6, 1fr);
 		grid-template-areas: 
 		"dg dg dg mk mk mk"
@@ -581,11 +582,49 @@ footer h4 {
 	}
 
 	.digital {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		top: -50px;
 		grid-area: dg;
 	}
 
+	.digital-img {
+		width: 590px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.transformation-container {
+		width: 590px;
+		height: 300px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
 	.marketing {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 		grid-area: mk;
+	}
+
+	.market-img {
+		width: 590px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.market-container {
+		width: 590px;
+		height: 300px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.videoproduction {
