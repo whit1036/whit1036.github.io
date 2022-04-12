@@ -628,15 +628,73 @@ footer h4 {
 	}
 
 	.videoproduction {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 		grid-area: vp;
 	}
 
+	.video-img {
+		width: 390px;
+		display: block;
+		margin-left: 5px;
+		margin-right: auto;
+	}
+
+	.production-container {
+		width: 390px;
+		height: 350px;
+		display: block;
+		margin-left: 5px;
+		margin-right: auto;
+	}
+
 	.web {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		top: 50px;
 		grid-area: wb;
 	}
 
+	.web-img {
+		width: 390px;
+		display: block;
+		margin-left: 5px;
+		margin-right: auto;
+	}
+
+	.webdev-container {
+		width: 390px;
+		height: 350px;
+		display: block;
+		margin-left: 5px;
+		margin-right: auto;
+	}
+
 	.print-plans {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		top: 100px;
 		grid-area: pp;
+	}
+
+	.print-img {
+		width: 390px;
+		display: block;
+		margin-left: 5px;
+		margin-right: auto;
+	}
+
+	.print-container {
+		width: 390px;
+		height: 350px;
+		display: block;
+		margin-left: 5px;
+		margin-right: auto;
 	}
 
 	.ourvision-container {
@@ -644,6 +702,8 @@ footer h4 {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
+		position: relative;
+		top: -95px;
 	}
 
 	footer {
