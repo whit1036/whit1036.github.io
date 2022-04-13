@@ -528,7 +528,7 @@ footer h4 {
 	}
 
 	nav ul li {
-		width: 130px;
+		width: 150px;
 		position: relative;
 		right: 80px;
 		top: 30px;
@@ -537,8 +537,14 @@ footer h4 {
 	.searchbar, button {
 		width: auto;
 		position: relative;
-		left: 880px;
+		left: 900px;
 		top: -50px;
+	}
+
+	button {
+		position: relative;
+		top: -47px;
+		margin: -20px;
 	}
 
 	.wrapper {
@@ -838,7 +844,7 @@ footer h4 {
 		order: 2;
 		align-self: flex-end;
 		position: relative;
-		top: -95px;
+		top: -97px;
 		left: -10px;
 	}
 
