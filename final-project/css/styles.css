@@ -770,6 +770,21 @@ footer h4 {
 		margin-right: auto;
 	}
 
+	.john-img {
+		width: 570px;
+	}
+
+	.john-container {
+		width: 600px;
+		height: 400px;
+		float: right;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		top: -10px;
+		left: -15px;
+	}
+
 	footer {
 		width: 1200px;
 		display: block;
