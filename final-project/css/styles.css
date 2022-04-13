@@ -801,39 +801,50 @@ footer h4 {
 	}
 
 	.info {
+		max-width: 1200px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 		display: flex;
+		flex-wrap: wrap;
 		flex-direction: column;
 	}
 
 	.message {
 		order: 1;
-		max-width: 1200px;
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
+		align-self: flex-start;
+	}
+
+	form {
+		width: 570px;
+		height: 0px;
 	}
 	
 	.ophours {
 		order: 3;
-		max-width: 1200px;
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
+		align-self: center;
 	}
 
 	.location-container {
 		order: 2;
-		max-width: 1200px;
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
+		align-self: flex-end;
 		position: relative;
+		top: -95px;
+		left: -10px;
+	}
+
+	.map {
+		width: 600px;
+	}
+
+	table {
+		width: 1200px;
+		margin: 10px;
+		justify-content: center;
 	}
 
 	footer {
 		width: 1200px;
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
+		margin: auto;
 	}
 }
