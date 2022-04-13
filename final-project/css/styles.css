@@ -775,14 +775,29 @@ footer h4 {
 	}
 
 	.john-container {
-		width: 600px;
-		height: 400px;
+		width: 570px;
+		height: 380px;
 		float: right;
 		margin-left: auto;
 		margin-right: auto;
 		position: relative;
 		top: -10px;
-		left: -15px;
+		left: -45px;
+	}
+
+	.bob-img {
+		width: 570px;
+		float: right;
+		position: relative;
+		top: -43px;
+		left: -30px;
+	}
+
+	.bob-container {
+		width: 570px;
+		height: 380px;
+		position: relative;
+		top: -43px;
 	}
 
 	footer {
