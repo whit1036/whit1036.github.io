@@ -763,6 +763,13 @@ footer h4 {
 		top: -95px;
 	}
 
+	.team {
+		max-width: 1200px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
 	footer {
 		width: 1200px;
 		display: block;
