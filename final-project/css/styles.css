@@ -127,7 +127,7 @@ nav ul {
 	align-items: center;
 }
 
-/* adjusts nav section to fit in the wrapper in the proper spot */
+/* adjusts nav section to fit in the wrapper for mobile layout */
 nav ul li {
 	width: 760px;
 	height: 100px;
@@ -234,7 +234,7 @@ button {
 	top: 30px;
 }
 
-/* adds */
+/* adds mobile style and custom color profile to about us container */
 .about-us-container {
 	width: 760px;
 	height: 620px;
@@ -243,18 +243,20 @@ button {
 	margin: 0;
 }
 
+/* adjusts about-us img for mobile view */
 .about-us-img {
 	width: 730px;
 	margin: 0;
 	position: relative;
 }
 
+/* adjusts mobile services section position */
 .services {
 	position: relative;
 	top: 50px;
 }
 
-/* digital transformation */
+/* adjusts image size and position for mobile layout */
 .digital-img {
 	width: 720px;
 	margin: 15px;
@@ -262,6 +264,7 @@ button {
 	top: -10px;
 }
 
+/* adds mobile styles with custom background color and position properties */
 .transformation-container {
 	width: 720px;
 	height: 230px;
@@ -272,6 +275,7 @@ button {
 	top: -45px;
 }
 
+/* creates h3 mock button with custom background, color and position in transformation container */
 .transformation-container h3 {
 	width: 200px;
 	height: 70px;
@@ -282,7 +286,7 @@ button {
 	padding: 25px;
 }
 
-/* marketing */
+/* adjusts image size and position for mobile layout */
 .market-img {
 	width: 720px;
 	margin: 15px;
@@ -290,6 +294,7 @@ button {
 	top: -60px;
 }
 
+/* adds mobile styles with custom background color and position properties */
 .market-container {
 	width: 720px;
 	height: 230px;
@@ -300,6 +305,7 @@ button {
 	top: -95px;
 }
 
+/* creates h3 mock button with custom background, color and position in market container */
 .market-container h3 {
 	width: 250px;
 	height: 70px;
@@ -310,7 +316,7 @@ button {
 	padding: 25px;
 }
 
-/* video production */
+/* adjusts image size and position for mobile layout */
 .video-img {
 	width: 720px;
 	margin: 15px;
@@ -318,6 +324,7 @@ button {
 	top: -110px;
 }
 
+/* adds mobile styles with custom background color and position properties */
 .production-container {
 	width: 720px;
 	height: 230px;
@@ -328,6 +335,7 @@ button {
 	top: -145px;
 }
 
+/* creates h3 mock button with custom background, color and position in production container */
 .production-container h3 {
 	width: 200px;
 	height: 70px;
@@ -338,7 +346,7 @@ button {
 	padding: 25px;
 }
 
-/* web development */
+/* adjusts image size and position for mobile layout */
 .web-img {
 	width: 720px;
 	margin: 15px;
@@ -346,6 +354,7 @@ button {
 	top: -160px;
 }
 
+/* adds mobile styles with custom background color and position properties */
 .webdev-container {
 	width: 720px;
 	height: 230px;
@@ -356,6 +365,7 @@ button {
 	top: -195px;
 }
 
+/* creates h3 mock button with custom background, color and position in webdev container */
 .webdev-container h3 {
 	width: 200px;
 	height: 70px;
@@ -366,7 +376,7 @@ button {
 	padding: 25px;
 }
 
-/* print */
+/* adjusts image size and position for mobile layout */
 .print-img {
 	width: 720px;
 	margin: 15px;
@@ -374,6 +384,7 @@ button {
 	top: -210px;
 }
 
+/* adds mobile styles with custom background color and position properties */
 .print-container {
 	width: 720px;
 	height: 230px;
@@ -384,6 +395,7 @@ button {
 	top: -245px;
 }
 
+/* creates h3 mock button with custom background, color and position in print container */
 .print-container h3 {
 	width: 200px;
 	height: 70px;
@@ -394,7 +406,7 @@ button {
 	padding: 25px;
 }
 
-/* our vision */
+/* adds a custom background and font color, and aligns in container */
 .ourvision-container {
 	background-image: url(../images/vision.jpg);
 	background-size: cover;
@@ -407,16 +419,19 @@ button {
 	color: white
 }
 
+/* adjusts h2 position in our vision container */
 .ourvision-container h2 {
 	position: relative;
 	top: 20px;
 }
 
+/* adjusts paragraph position in our vision container */
 .ourvision-container p {
 	position: relative;
 	top: 30px;
 }
 
+/* creates h3 mock button with custom background and position in our vision container */
 .ourvision-container h3 {
 	width: 250px;
 	height: 100px;
@@ -430,6 +445,7 @@ button {
 	top: 40px;
 }
 
+/* adjusts positionm of team section for mobile layout */
 .team {
 	position: relative;
 	top: -100px;
@@ -522,11 +538,12 @@ th, td {
 	padding: 20px;
 }
 
-/* location map */
+/* aligns location container with map for mobile */
 .location-container {
 	padding: 1rem;
 }
 
+/* creates custom map size for mobile layout */
 .map {
 	width: 720px;
 	height: 450px;
