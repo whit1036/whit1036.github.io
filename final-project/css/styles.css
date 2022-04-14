@@ -106,6 +106,7 @@ hr {
 
 .wrapper {
 	width: 760px;
+	height: 710px;
 	padding: 0;
 	margin: 0;
 	background-color: #222;
@@ -120,7 +121,10 @@ nav ul {
 
 nav ul li {
 	width: 760px;
+	height: 100px;
 	text-align: center;
+	position: relative;
+	top: -100px;
 }
 
 nav ul li a {
@@ -143,12 +147,24 @@ a:hover {
     margin: 15px;
 	font-size: large;
 	align-items: center;
+	position: relative;
+	top: -120px;
 }
 
 button {
 	background-color: #222;
 	height: 40px;
 	width: 40px;
+	position: relative;
+	top: -115px;
+	left: -20px;
+}
+
+.home-button {
+	background-color: #c78c06;
+	color: black;
+	padding: 20px;
+	margin: 30px;
 }
 
 .fa-magnifying-glass {
@@ -531,20 +547,27 @@ footer h4 {
 		width: 150px;
 		position: relative;
 		right: 80px;
-		top: 30px;
+		top: 35px;
 	}
 
 	.searchbar, button {
 		width: auto;
 		position: relative;
 		left: 900px;
-		top: -50px;
+		top: -60px;
 	}
 
 	button {
 		position: relative;
-		top: -47px;
+		top: -56px;
 		margin: -20px;
+	}
+
+	.home-button {
+		background-color: #c78c06;
+		color: black;
+		padding: 20px;
+		margin: 30px;
 	}
 
 	.wrapper {
