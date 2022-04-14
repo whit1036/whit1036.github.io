@@ -49,6 +49,7 @@ table {
 	border-spacing: 0;
 }
 
+/* border-box css reset */
 html {
     box-sizing: border-box;
   }
@@ -60,7 +61,7 @@ html {
 
 /* mobile css styles min width: 760px  */
 
-/* applies a master font size and weight to all corresponsing values for the mobile/desktop layout */
+/* applies a deafult master font size and weight to all corresponsing font tags for the mobile/desktop layout */
 body {
 	font-family: 'Open Sans', sans-serif;
 	color: #222;
@@ -95,7 +96,7 @@ hr {
 	border-top: 3px solid #c78c06;
 }
 
-/* adds a container for the logo in the header section of the html */
+/* adds a container for the logo in the header section of the body */
 .logo-container {
 	width: 760px;
 	height: 250px;
@@ -135,21 +136,24 @@ nav ul li {
 	top: -100px;
 }
 
-/* adds color profile to the nav font */
+/* adds color profile to the nav ul li font */
 nav ul li a {
 	color: #c78c06;
 	text-decoration: none;
 }
 
+/* removes underline from nav ul li */
 a:hover {
 	text-decoration: none;
 }
 
+/* adjusts li font size and padding for mobile layout */
 .menu li {
 	font-size: 25px;
 	padding: 30px 5px;
 }
 
+/* creates mobile searchbar layout */
 .searchbar {
 	width: 89%;
     padding: 10px;
@@ -160,6 +164,7 @@ a:hover {
 	top: -120px;
 }
 
+/* creates mobile css properties for magnifying glass button */
 button {
 	background-color: #222;
 	height: 40px;
@@ -169,6 +174,7 @@ button {
 	left: -20px;
 }
 
+/* creates custom background for 'home' li in nav ul */
 .home-button {
 	background-color: #c78c06;
 	color: black;
@@ -176,11 +182,12 @@ button {
 	margin: 30px;
 }
 
+/* adds selected color profile to magnifying glass icon */
 .fa-magnifying-glass {
 	color: #c78c06
 }
 
-/* welcome to three star media */
+/* creates custom mobile background for welcome section */
 .welcome {
 	background-image: url("../images/main-banner.jpg");
 	background-size: cover;
@@ -189,6 +196,7 @@ button {
 	position: relative;
 }
 
+/* adds mobile css styles for font and background in welcome container */
 .welcome-container {
 	width: 760px;
 	height: 400px;
@@ -200,17 +208,20 @@ button {
 	top: 100px;
 }
 
+/* adjusts h1 with custom font size and position inside the welcome container */
 .welcome-container h1 {
 	position: relative;
 	font-size: 70px;
 	top: 20px;
 }
 
+/* aligns position of welcome container paragraph tag */
 .welcome-container p {
 	position: relative;
 	top: 20px;
 }
 
+/* creates h3 mock button with custom background and position in welcome container */
 .welcome-container h3 {
 	width: 280px;
 	height: 100px;
@@ -223,7 +234,7 @@ button {
 	top: 30px;
 }
 
-/* about us */
+/* adds */
 .about-us-container {
 	width: 760px;
 	height: 620px;
@@ -460,7 +471,7 @@ button {
 	top: -60px;
 }
 
-/* send us a message form */
+/* adjusts message form for mobile layout */
 form {
 	width: 720px;
 	margin: 15px;
@@ -492,7 +503,7 @@ label {
 	width: auto;
 }
 
-/* hours of operation table */
+/* aligns hours of operation table to fit in mobile layout */
 table {
 	width: 720px;
 	margin: 15px;
@@ -521,7 +532,7 @@ th, td {
 	height: 450px;
 }
 
-/* footer */
+/* creates mobile footer styles to fit mobile layout */
 footer {
 	background: #222;
 	width: 760px;
@@ -530,6 +541,7 @@ footer {
 	margin: 0;
 }
 
+/* adds custom font color and style to h4 inside footer */
 footer h4 {
 	color:#c78c06;
 	justify-content: space-between;
