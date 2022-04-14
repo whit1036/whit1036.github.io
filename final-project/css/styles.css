@@ -56,7 +56,7 @@ html {
     box-sizing: inherit;
 }
 
-/* master font-family, font-size */
+/* applies a master font size and weight to all corresponsing values for the mobile/desktop layout */
 body {
 	font-family: 'Open Sans', sans-serif;
 	color: #222;
