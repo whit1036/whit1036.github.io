@@ -451,7 +451,7 @@ button {
 	top: -100px;
 }
 
-/* john doe */
+/* creates container with custom positioning for displaying h2, h5, hr & p for john's info */
 .john-container {
 	width: 720px;
 	height: 230px;
@@ -462,6 +462,7 @@ button {
 	top: -45px;
 }
 
+/* adds image of john above container, positioned customly inline with container for mobile layout */
 .john-img {
 	width: 720px;
 	margin: 15px;
@@ -469,7 +470,7 @@ button {
 	top: -10px;
 }
 
-/* bob rite */
+/* creates container with custom positioning for displaying h2, h5, hr & p for bob's info */
 .bob-container {
 	width: 720px;
 	height: 210px;
@@ -480,6 +481,7 @@ button {
 	top: -95px;
 }
 
+/* adds image of bob above container, positioned customly inline with container for mobile layout */
 .bob-img {
 	width: 720px;
 	margin: 15px;
@@ -487,12 +489,13 @@ button {
 	top: -60px;
 }
 
-/* adjusts message form for mobile layout */
+/* adjusts message form for custom mobile layout */
 form {
 	width: 720px;
 	margin: 15px;
 }
 
+/* adjusts label styles to fit for mobile layout */
 label {
 	display: block;
 	padding: 0.5rem 0;
