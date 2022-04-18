@@ -881,6 +881,7 @@ footer h4 {
 		margin-right: auto;
 	}
 
+	/* applies a max width to our vision container and uses position properties to align for desktop layout */
 	.ourvision-container {
 		width: 1200px;
 		display: block;
@@ -890,6 +891,7 @@ footer h4 {
 		top: -95px;
 	}
 
+	/* applies a max width to all child elements inside team container */
 	.team {
 		max-width: 1200px;
 		display: block;
@@ -897,10 +899,12 @@ footer h4 {
 		margin-right: auto;
 	}
 
+	/* adjusts width properties to fit and align according to desktop layout */
 	.john-img {
 		width: 570px;
 	}
 
+	/* uses position elements to properly align according to the desktop layout */
 	.john-container {
 		width: 570px;
 		height: 380px;
@@ -912,6 +916,7 @@ footer h4 {
 		left: -45px;
 	}
 
+	/* uses float properties to align bob image to the right side of the bob container class */
 	.bob-img {
 		width: 570px;
 		float: right;
@@ -920,6 +925,7 @@ footer h4 {
 		left: -30px;
 	}
 
+	/* uses position elements to properly align according to the desktop layout */
 	.bob-container {
 		width: 570px;
 		height: 380px;
@@ -927,6 +933,7 @@ footer h4 {
 		top: -43px;
 	}
 
+	/* uses flex properties to order/align child elements in info section */
 	.info {
 		max-width: 1200px;
 		display: block;
@@ -937,21 +944,25 @@ footer h4 {
 		flex-direction: column;
 	}
 
+	/* uses flex properties to order message position to 1/3 */
 	.message {
 		order: 1;
 		align-self: flex-start;
 	}
 
+	/* adjusts form width properties to fit in flex column for desktop layout */
 	form {
 		width: 570px;
 		height: 0px;
 	}
 	
+	/* uses flex properties to order ophours position to 1/3 */
 	.ophours {
 		order: 3;
 		align-self: center;
 	}
 
+	/* uses flex properties to order location container position and order 2/3 for desktop layout */
 	.location-container {
 		order: 2;
 		align-self: flex-end;
@@ -960,16 +971,19 @@ footer h4 {
 		left: -10px;
 	}
 
+	/* adjusts map size to fit for desktop layout */
 	.map {
 		width: 600px;
 	}
 
+	/* adjusts table according to desktop layout */
 	table {
 		width: 1200px;
 		margin: 10px;
 		justify-content: center;
 	}
 
+	/* adds max width of 1200px for desktop layout */
 	footer {
 		width: 1200px;
 		margin: auto;
