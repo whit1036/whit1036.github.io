@@ -659,6 +659,7 @@ footer h4 {
 		margin-right: auto;
 	}
 
+	/* adjusts about us container properties for max width 1200px desktop layout */
 	.about-us-container {
 		width: 1200px;
 		height: 310px;
@@ -667,6 +668,7 @@ footer h4 {
 		margin-right: auto;
 	}
 
+	/* aligns about us image inside the about us container according to the desktop layout */
 	.about-us-img {
 		width: 550px;
 		float: left;
@@ -674,6 +676,7 @@ footer h4 {
 		margin-left: 10px;
 	}
 
+	/* adjusts our services container to a max width of 1200px according to the desktop layout */
 	.ours {
 		width: 1200px;
 		display: block;
