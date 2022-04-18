@@ -501,19 +501,23 @@ label {
 	padding: 0.5rem 0;
 }
 
+/* adjusts input styles to fit mobile layout */
 .input {
 	padding: 0.5rem;
 }
 
+/* adjusts padding for message box area in form for mobile/desktop */
 .textarea {
 	padding: 4rem;
 }
 
+/* adds styles for mobile layout */
 .input, .textarea {
 	display: block;
 	width: 100%;
 }
 
+/* creates custom color and properties for send button in form for mobile/desktop */
 #sendbutton {
 	background: #222;
 	padding: 0.5rem;
@@ -528,15 +532,18 @@ table {
 	margin: 15px;
 }
 
+/* adds custom background color */
 th {
 	background-color:#ffe6ac;
 }
 
+/* creates custom table layout for mobile/desktop layout */
 table, th, td {
 	border: 1px solid black;
 	border-collapse: collapse;
 }
 
+/* adds custom positioning layout for th/td in table */
 th, td {
 	padding: 20px;
 }
