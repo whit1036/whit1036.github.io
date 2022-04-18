@@ -579,19 +579,24 @@ footer h4 {
 /* desktop css layout max width: 1200px */
 
 @media screen and (min-width: 760px) {
+	
+	/* removes mobile logo properties, adds desktop properties */
 	.logo-container {
 		width: 0;
 		height: 0;
 	}
 
+	/* adds desktop layout properties to img logo */
 	.img-logo {
 		margin: 30px;
 	}
 
+	/* adds desktop properties to center nav ul */
 	nav ul {
 		justify-content: center;
 	}
 
+	/* adds properties to align nav ul li for desktop layout */
 	nav ul li {
 		width: 150px;
 		position: relative;
@@ -599,10 +604,12 @@ footer h4 {
 		top: 35px;
 	}
 
+	/* adjusts font size properties for desktop layout */
 	.menu li {
 		font-size: 22px;
 	}
 
+	/* adjusts searchbar and button to display to the right of nav ul li for desktop layout */
 	.searchbar, button {
 		width: auto;
 		position: relative;
@@ -610,12 +617,14 @@ footer h4 {
 		top: -60px;
 	}
 
+	/* aligns button alongside searchbar for desktop layout */
 	button {
 		position: relative;
 		top: -56px;
 		margin: -20px;
 	}
 
+	/* adds border around home button in nav with custom color and position properties for desktop layout */
 	.home-button {
 		background-color: #c78c06;
 		color: black;
@@ -623,6 +632,7 @@ footer h4 {
 		margin: 30px;
 	}
 
+	/* adjusts wrapper to display max width of 1200px, and height properties for desktop layout */
 	.wrapper {
 		width: 1200px;
 		height: 210px;
@@ -631,6 +641,7 @@ footer h4 {
 		margin-right: auto;
 	}
 
+	/* adjusts welcome section to display max width of 1200px for desktop layout */
 	.welcome {
 		width: 1200px;
 		display: block;
@@ -638,6 +649,7 @@ footer h4 {
 		margin-right: auto;
 	}
 
+	/* adjusts welcome container to fit according to desktop layout */
 	.welcome-container {
 		width: 1050px;
 		height: 420px;
@@ -669,6 +681,7 @@ footer h4 {
 		margin-right: auto;
 	}
 
+	/* applies grid properties to align items for desktop layout */
 	.services {
 		display: grid;
 		margin: auto;
