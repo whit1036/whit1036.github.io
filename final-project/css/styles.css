@@ -590,6 +590,10 @@ footer h4 {
 		top: 35px;
 	}
 
+	.menu li {
+		font-size: 22px;
+	}
+
 	.searchbar, button {
 		width: auto;
 		position: relative;
